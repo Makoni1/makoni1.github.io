@@ -363,108 +363,10 @@ hr{
     justify-content: space-between;
     width: 100%;
 }
-.languages__columns{
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    width: 100%;
-}
-.language__column{
-    flex: 25%;
-}
-.language__content{
-    font-family: 'Roboto-Regular';
-    font-size: 30px;
-    color: #E9E9E9;
-    margin-bottom: 15px;
-}
-.language__degree{
-    font-family: 'Roboto-Regular';
-    font-size: 26px;
-    color: #E9E9E9;
-}
 
 .javascript{
     font-family: 'Roboto-Regular';
     font-size: 26px;
-    color: #E9E9E9;
-}
-.projects{
-    font-family: 'Roboto-Regular';
-}
-.project__content{
-   margin-right: 200px;
-}
-.projects__card{
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    border-radius: 20px;
-    background-color: #fff;
-    margin: auto;
-    width: 70%;
-    overflow: hidden;
-    margin-bottom: 30px;
-    position: relative;
-}
-.projects__card-img{
-    border-radius: 20px 20px 0 0;
-    width: 100%;
-}
-.projects__card2-img{
-    border-radius: 20px 20px 0 0;
-    width: 100%;
-}
-.projects__content{
-    display: flex;
-    justify-content: space-around;
-    flex-direction: row;
-    padding: 20px;
-    font-weight: 600;
-    font-size: 45px;
-}
-.project__content-btn{
-    display: inline-block;
-    font-size: 40px;
-    font-weight: 500;
-    border-radius: 30px;
-    color: #fff;
-    background-color: #4EB1BA;
-    border: 2px solid #fff;
-    font-family: 'UbuntuMono-Regular';
-    text-align: center;
-    cursor: pointer;
-    padding: 2rem 1.5rem;
-}
-.project__content-btn:hover{
-    transform: scale(1.1);
-}
-.projects__content h3{
-    color: #000008;
-    text-align: center;
-}
-.projects__content p{
-    color: #000008;
-    text-align: center;
-}
-.project__content-text{
-    font-family: 'Roboto-Regular';
-    font-size: 20px;
-}
-.project__btn-text{
-    color: #fff;
-}
-.project__content-desc{
-    flex-wrap: wrap;
-}
-.projects__subtitle {
-    font-family: 'Roboto-Regular';
-    font-size: 30px;
-    color: #E9E9E9;
-}
-.projects__desc{
-    font-family: 'Roboto-Regular';
-    font-size: 30px;
     color: #E9E9E9;
 }
 .card__layer{
