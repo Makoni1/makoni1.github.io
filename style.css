@@ -85,6 +85,7 @@ nav ul li a {
 .navigation a.active, .navigation a:hover { 
     background: #4EB1BA;
     transition: .5s;
+    color: black;
 }
 .checkbtn{
     font-size: 30px;
