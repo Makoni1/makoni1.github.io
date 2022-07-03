@@ -38,11 +38,10 @@ body{
     display: flex;
     flex-direction: column;
     min-height: 100vh;
-    padding: 0 20px;
     margin: 0 auto;
 }
 header{
-    padding: 20px 100px;
+    padding: 20px 60px;
     background-color: #243646;
     z-index: 3;
 }
@@ -50,7 +49,7 @@ main{
     flex: 1 0 auto;
 }
 .container{
-    padding: 100px;
+    padding: 60px;
 }
 nav{
     height: 80px;
@@ -447,6 +446,9 @@ hr{
     }
 }
 @media (max-width: 1600px) {
+    header{
+        padding: 10px 30px;
+    }
     .container{
         padding: 70px;
     }
