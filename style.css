@@ -93,6 +93,7 @@ nav ul li a {
     line-height: 80px;
     cursor: pointer;
     display: none;
+    margin: 0;
 }
 #check{
     display: none;
@@ -447,10 +448,10 @@ hr{
 }
 @media (max-width: 1600px) {
     header{
-        padding: 10px 30px;
+        padding: 20px 40px;
     }
     .container{
-        padding: 70px;
+        padding: 40px;
     }
     nav ul li a{
         font-size: 14px;
@@ -522,9 +523,6 @@ hr{
     }
 }
 @media (max-width: 1200px){
-    .container{
-        padding: 65px;
-    }
     nav ul li a{
         font-size: 14px;
     }
@@ -612,9 +610,6 @@ hr{
     }
 }
 @media (max-width: 952px){
-    .container{
-        padding: 60px;
-    }
     .title{
         font-size: 28px;
         margin-bottom: 16px;
@@ -703,9 +698,6 @@ hr{
     }
 }
 @media (max-width: 858px){
-    .container{
-        padding: 60px;
-    }
     .title{
         font-size: 26px;
         margin-bottom: 14px;
@@ -893,6 +885,9 @@ hr{
     .container{
         padding: 20px;
     }
+    .header {
+        padding: 20px;
+    }
     .javascript{
         font-size: 9px;
     }
@@ -926,9 +921,6 @@ hr{
     }
 }
 @media (max-width: 320px) {
-    .container{
-        padding: 10px;
-    }
     .javascript{
         font-size: 9px;
     }
